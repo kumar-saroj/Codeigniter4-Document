@@ -158,7 +158,7 @@ class Register extends BaseController
     class UserModel extends Model
     {
     protected $table = 'userlist';
- 
+    protected $primaryKey = 'id';
     protected $allowedFields = ['name', 'email', 'phone','password'];
     }
 
